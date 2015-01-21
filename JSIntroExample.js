@@ -47,7 +47,7 @@ var getAverageTime = function(person) {
     // };
 
 
-    // Demo 2 - Similar to Demo 2 using keys() to get array of keys, this time using .forEach to iterate through the array
+    // Demo 2 - Similar to Demo 1 using keys() to get array of keys, this time using .forEach to iterate through the array
     // var totalTime = 0;
     // Object.keys(person).forEach(function(element, index, array){
     //    totalTime += person[array[index]];
