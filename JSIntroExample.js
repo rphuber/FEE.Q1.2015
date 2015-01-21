@@ -9,7 +9,7 @@
 var sum = function(a, b) {
     "use strict";
     /// return ...
-    // return a + b;
+    return a + b;
 }
 
 console.log(sum(8, 11));
@@ -41,10 +41,10 @@ var getAverageTime = function(person) {
     "use strict";
     
     // Demo 1 - Use a .keys() to get array of keys, then use for loop to iterate through the array
-    // var propArray = Object.keys(person)
-    // for (var i = 0; i < arr.length; i++) {
-    //    totalTime += person[arr[i]];
-    // };
+    var propArray = Object.keys(person)
+    for (var i = 0; i < arr.length; i++) {
+       totalTime += person[arr[i]];
+    };
 
 
     // Demo 2 - Similar to Demo 1 using keys() to get array of keys, this time using .forEach to iterate through the array
